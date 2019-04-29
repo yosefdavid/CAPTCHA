@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+
+<body>
+
+    <h1>Contact Us</h1>
+
+    <form name="Contact-Us">
+
+        <table>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Enter your name:</td>
+
+                    <td>
+                        <input type="text" name="input-name" />
+                    </td>
+
+                    <td>
+                        <label class="error" id="error-name"></label>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Enter your message:</td>
+
+                    <td>
+                        <textarea name="textarea-message" id="" rows="5"></textarea>
+                    </td>
+
+                    <td>
+                        <label class="error" id="error-message"></label>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <div class="textfornums">Enter the following digits:</div>
+                        <div>
+                            <label id="num-captcha0"></label>
+                            <label id="num-captcha1"></label>
+                            <label id="num-captcha2"></label>
+                            <label id="num-captcha3"></label>
+                            <label id="num-captcha4"></label>
+                            <label id="num-captcha5"></label>
+                            <label id="num-captcha6"></label>
+                            <label id="num-captcha7"></label>
+                            <label id="num-captcha8"></label>
+                            <label id="num-captcha9"></label>
+                        </div>
+                    </td>
+
+                    <td><input name="input-captcha" type="text" maxlength="10" /></td>
+
+                    <td>
+                        <label class="error" id="error-captcha"></label>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td >
+                        <button type="button" onclick="Captcha()" class="RefreshBtn">Refresh</button>
+                    </td>
+
+                    <td >
+                        <button type="button" onclick="SendForm()" class="SendBtn">Send</button>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

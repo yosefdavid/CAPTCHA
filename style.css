@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background-image: url("http://wellworthsurgical.com/wp-content/uploads/parser/background-images-blue-1.jpg");
+  background-size: cover;
+}
+
+body h1 {
+  text-decoration: underline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 225px;
+  border-radius: 35px;
+}
+
+body table {
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
+  font-size: 35px;
+}
+
+body table td {
+  padding: 20px;
+}
+
+body table input, body table textarea {
+  width: 300px;
+  font-size: 35px;
+  border-radius: 12px;
+  background-color: lightblue;
+}
+
+body table .error {
+  color: red;
+  background-color: floralwhite;
+  border-radius: 10px;
+}
+
+body table .textfornums {
+  margin-bottom: 25px;
+}
+
+body table img {
+  width: 50px;
+  border-radius: 15px;
+}
+
+body table .SendBtn {
+  font-size: 25px;
+  width: 105px;
+  border-radius: 16px;
+  color: white;
+  background-color: forestgreen;
+}
+
+body table .RefreshBtn {
+  font-size: 24px;
+  width: 115px;
+  border-radius: 16px;
+  color: white;
+  background-color: brown;
+}
+
+body .ThankYouPageRow1 {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+body .ThankYouPageRow2 {
+  margin-top: 65px;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */
